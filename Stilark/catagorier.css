@@ -1,0 +1,43 @@
+.catagorinavn{
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin-top: 5px;
+    background: #998254;
+    box-shadow: inset 0px 1px 3px rgba(100,100,100,0.5);
+    color: white;
+    font-family: "SimSun-ExtB";
+}
+
+.produkter{
+    margin: 0px auto;
+    overflow: visible;
+    height: auto;
+    background-color: white;
+}
+.entry{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+    background-color: white;
+    
+}
+figure{
+    width: 90%;
+    height: 350px;
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+figure img {
+    width: 100%;
+    height: 100%;
+}
+figcaption {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Sitka Heading";
+}

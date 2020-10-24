@@ -1,0 +1,111 @@
+/*about shipping*/
+#topInfo{
+    background-color: black;
+    padding: 0px;
+    height: auto;
+}
+#topInfo ul{
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+#topInfo ul li{
+    display: inline;
+    margin-right: 50px;
+    color: black;
+    overflow: hidden;
+}
+#topInfo ul li a{
+    color: white;
+    text-decoration: none;
+}
+#topInfo ul li a:hover{
+    color: gold;
+    background-color: black;
+}
+
+/*navigation*/
+#header{
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    height: auto;
+}
+#header h1{
+    font-family: BlinkMacSystemFont,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: #ffffff;
+    padding: 0px 0px 1px 0px;
+    box-shadow: 0px 8px 8px rgba(0,0,0,0.2);
+    color: #23345c;;
+    transition: 2s;
+}
+#nav{
+    background-color: white;
+    height: auto;
+    padding: 5px 0px 5px 0px;
+}
+#nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+#nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+#saleMenu{
+    background-color: #d3d3d3;
+    border-radius: 450px;
+}
+#nav li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+}
+#nav li a:hover, .dropdown:hover .dropbtn{
+    color: darkblue;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#nav li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}   
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    #nav li a, .dropbtn .dropdown-content a{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+  #topInfo #nav li a, .dropbtn .dropdown-content a{
+    float: none;
+  }
+}

@@ -1,0 +1,75 @@
+body{
+    color: black;
+    font-family: "Segoe UI";
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#feature {
+    height: auto;
+    margin-bottom: 0px;
+    background-color: white;
+}
+.model{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+    border-radius: 10px;
+}
+.brandsLogo{
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-bottom: 1em;
+    padding: 5px 0px 20px 0px;
+    margin-top: 5px;
+    background: #ffffff;
+    box-shadow: inset 0px 1px 3px rgba(100,100,100,0.5);
+    color: #23345c;
+    font-family: BlinkMacSystemFont,sans-serif;
+}
+.toppBrands{
+    max-width: 100px;
+    height: auto;
+    padding: 0px 40px 5px 0px;
+}
+
+#content{
+    height: auto;
+    overflow: visible;
+    background-color: white;
+    color: #23345c;
+}
+.toptekst .article{
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: azure;
+}
+.column1, .column2, .column3, .column4, .column5{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 1%;
+}
+.column5{
+    width: 60%;
+}
+.sale{
+    padding: 0px 10px 0px 15px;
+    height: 100%;
+    width: 100%;
+}
+.toppCatagories{
+    height: 100%;
+    width: 100%;  
+}
+#footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+}
+
+
